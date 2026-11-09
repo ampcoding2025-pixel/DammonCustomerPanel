@@ -1,12 +1,15 @@
 # Damoon Customer Panel — UI Shell
 
-Interactive HTML prototype of the **B2B customer console sidebar**. Content pages are placeholders only; this is for manager UX review and as the base for future page design.
+Interactive HTML prototype of the **B2B customer console** for demos and UX review.
+
+For clone + deploy / presentation steps, see the root **[README.md](../README.md)**.
 
 ## How to open
 
 1. Open `index.html` in a browser (double-click or drag into Chrome/Edge/Firefox).
 2. No build step or local server is required — pure static HTML/CSS/JS.
-3. **Offline:** Layout, navigation, collapse, and content swapping work fully offline via relative `assets/` files. Vazirmatn loads from Google Fonts when online; offline, the UI falls back to Tahoma / Segoe UI.
+3. Prefer a tiny static server for LAN demos: `python -m http.server 8080 --directory ui-design`
+4. **Offline:** Layout, navigation, collapse, and content swapping work fully offline via relative `assets/` files. Vazirmatn loads from Google Fonts when online; offline, the UI falls back to Tahoma / Segoe UI.
 
 ## Sidebar UX notes
 
